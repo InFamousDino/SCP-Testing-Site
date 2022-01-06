@@ -2,7 +2,7 @@
 
 		[Made by SebsLore / O5-7]
 		
-		Color, use "LightMoudle.ChangeLighting(Color3.fromRGB(RGB here))"
+		Color, use "LightModule.ChangeLighting(Color3.fromRGB(RGB here))"
 		On is self explanitory, use true or false
 		Sector is the Sector, either "S1", "S2", "S3" or "All". Make sure to have LightFolder and in that folder "S1", "S2" and "S3" as folders, put the lights for the sector in there.
 
