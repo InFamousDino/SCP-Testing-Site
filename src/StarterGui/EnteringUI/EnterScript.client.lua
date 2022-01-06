@@ -2,7 +2,7 @@ local player = game:GetService('Players').LocalPlayer
 local character = game:GetService('Players').LocalPlayer.Character
 local humanoid = character:WaitForChild("Humanoid")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local AnimateUI = require(ReplicatedStorage:WaitForChild("AnimateUI"))
+local AnimateUI = require(ReplicatedStorage.Modules:WaitForChild("AnimateUI"))
 
 local currentarea = player:WaitForChild('CurrentArea')
 

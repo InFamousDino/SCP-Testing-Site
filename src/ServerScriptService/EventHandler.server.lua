@@ -46,3 +46,18 @@ game.Workspace.ActivateCP.ClickDetector.MouseClick:Connect(function()
 		debounce = false
 	end
 end)
+
+local Players = game:GetService('Players')
+Players.PlayerAdded:Connect(function(plr)
+	if plr:IsInGroup(5581334) then
+        plr.TeamColor = BrickColor.new("White")
+	else
+		plr.TeamColor = BrickColor.new("Bright orange")
+    end
+end)
+
+local RefreshChr = game.ReplicatedStorage:WaitForChild('RefreshChr')
+
+RefreshChr.OnServerEvent:Connect(function(plr)
+	plr:LoadCharacter()
+end

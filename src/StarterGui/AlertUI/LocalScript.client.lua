@@ -3,7 +3,7 @@ local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local ActivateCP = ReplicatedStorage:WaitForChild('ACodePurple')
 local DeactivateCP = ReplicatedStorage:WaitForChild('DCodePurple')
 
-local AnimateUI = require(ReplicatedStorage:WaitForChild("AnimateUI"))
+local AnimateUI = require(ReplicatedStorage.Modules:WaitForChild("AnimateUI"))
 
 local TopBar = script.Parent.TopBar
 local BottomBar = script.Parent.BottomBar
