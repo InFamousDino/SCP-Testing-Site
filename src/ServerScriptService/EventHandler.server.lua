@@ -60,4 +60,4 @@ local RefreshChr = game.ReplicatedStorage:WaitForChild('RefreshChr')
 
 RefreshChr.OnServerEvent:Connect(function(plr)
 	plr:LoadCharacter()
-end
+end)
